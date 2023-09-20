@@ -85,6 +85,9 @@ input {
   padding-left:  40px;
   width: 395px;
   height: 50px;
+  max-width: 100%;
+  outline: none;
+  border-radius: 8px;
 }
 
 @media (max-width: 650px) {

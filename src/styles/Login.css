@@ -19,11 +19,11 @@ padding: 8px;
 /* justify-content: center; */
 /* align-items: center; */
  gap: 15px;
- margin: 100px 500px;
+ margin: 100px auto;
  border-radius: 8px;
- border: 1px solid black;
+ border: 1px solid white;
  height: 350px;
- width: 100%;
+ width: 355px;
  /* background-color: black;  */
 }
 
@@ -34,11 +34,10 @@ height: 39px;
 padding: 4px 8px;
 border-radius: 8px;
 background-color: white;
-color: #CDCDCD;
+color: #CDCDCD; 
+outline: none;
 }
-input:focus{
-    border: none;
-}
+
 .first button{
     width: 315px;
     height: 39px;
@@ -46,5 +45,6 @@ input:focus{
     border-radius: 8px;
     margin-top: 20px;
     background: var(--primaryColor, #0E73F5);
-     
+    outline: none;
+
 }
