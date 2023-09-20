@@ -1,14 +1,4 @@
-/* 
-.characters-grid {
-  display: grid;
-  grid-template-columns: repeat(
-    3,
-    1fr
-  ); 
-  gap: 16px; 
-  list-style: none;
-  padding: 0;
-}
+
 
 .character-card {
   background-color: #fff;
@@ -53,12 +43,12 @@ input{
   }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
 
   .characters-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-} */
+} */ */
 .character-card {
   border: 1px solid #ddd;
   padding: 10px;

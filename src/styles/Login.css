@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    /* background-imag    /* 
-    width: 100%;
-    overflow: hidden; */
     background-image:  url("../images/bg\ img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +21,6 @@ padding: 8px;
  border: 1px solid white;
  height: 350px;
  width: 355px;
- /* background-color: black;  */
 }
 
 .first input{
@@ -46,5 +42,7 @@ outline: none;
     margin-top: 20px;
     background: var(--primaryColor, #0E73F5);
     outline: none;
+    font-size: 16px;
+    font-weight: 300;
 
 }
